@@ -18,7 +18,7 @@ import NavbarCS from "../../components/organisms/navbar/NavbarCS";
 import DocumentTitle from "../../utils/DocumentTitle";
 import EmailNewTab from "../../utils/EmailNewTab";
 
-import MinesLogo from "/logos/mines.png";
+import MinesLogo from "../../assets/logos/mines.png";
 
 
 function CSPortfolio() {

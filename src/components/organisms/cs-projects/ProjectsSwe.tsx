@@ -5,9 +5,9 @@ import "react-photo-album/rows.css";
 //const photosPath: string = "/src/assets/projects/";
 
 // Logo image imports
-import KotlinLogo from "/logos/kotlin.png";
-import JavaLogo from "/logos/java.png";
-import JUnitLogo from "/logos/junit.svg";
+import KotlinLogo from "../../../assets/logos/kotlin.png";
+import JavaLogo from "../../../assets/logos/java.png";
+import JUnitLogo from "../../../assets/logos/junit.svg";
 
 
 function ProjectsSwe() {

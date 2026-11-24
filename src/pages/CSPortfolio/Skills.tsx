@@ -11,23 +11,23 @@ import "../../styles/cs-portfolio/main.scss";
 import "../../styles/cs-portfolio/skills.scss";
 
 /* logo image imports */
-import TSLogo from "/logos/typescript-128.png";
-import MUILogo from "/logos/mui.svg";
-import ViteLogo from "/logos/vite.svg";
-import JekyllLogo from "/logos/jekyll.png";
+import TSLogo from "../../assets/logos/typescript-128.png";
+import MUILogo from "../../assets/logos/mui.svg";
+import ViteLogo from "../../assets/logos/vite.svg";
+import JekyllLogo from "../../assets/logos/jekyll.png";
 
-import RubyLogo from "/logos/ruby.png";
-import JavaLogo from "/logos/java.png";
-import CPPLogo from "/logos/c-plus-plus.png";
+import RubyLogo from "../../assets/logos/ruby.png";
+import JavaLogo from "../../assets/logos/java.png";
+import CPPLogo from "../../assets/logos/c-plus-plus.png";
 
-import MySQLLogo from "/logos/mysql.png";
-import SupabaseLogo from "/logos/supabase.png";
+import MySQLLogo from "../../assets/logos/mysql.png";
+import SupabaseLogo from "../../assets/logos/supabase.png";
 
-import JiraLogo from "/logos/jira.png";
-import NotionLogo from "/logos/notion.svg";
+import JiraLogo from "../../assets/logos/jira.png";
+import NotionLogo from "../../assets/logos/notion.svg";
 
-import DockerLogo from "/logos/docker.svg";
-import BashLogo from "/logos/bash.png";
+import DockerLogo from "../../assets/logos/docker.svg";
+import BashLogo from "../../assets/logos/bash.png";
 /* end logo image imports */
 
 function Skills() {

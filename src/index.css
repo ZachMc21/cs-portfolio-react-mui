@@ -1,15 +1,21 @@
 
 @font-face {
   font-family: aller;
-  src: url(/fonts/aller.regular.ttf);
+  src: url("assets/fonts/aller.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: eightgon;
-  src: url(/fonts/eightgon.regular.ttf);
+  src: url("assets/fonts/eightgon.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: rollbox;
-  src: url(/fonts/rollbox.regular.ttf);
+  src: url("assets/fonts/rollbox.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 

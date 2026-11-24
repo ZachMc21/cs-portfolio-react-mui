@@ -6,43 +6,43 @@ import "react-photo-album/rows.css";
 import { Suspense } from "react";
 import GalleryLazyLoad from "../../molecules/ProjectsLazyLoad";
 
-import ViteLogo from "/logos/vite.svg";
-import MUILogo from "/logos/mui.svg";
-import TSLogo from "/logos/typescript-128.png";
-import NotionLogo from "/logos/notion.svg";
-import RubyLogo from "/logos/ruby.png";
-import JekyllLogo from "/logos/jekyll.png";
-import SupabaseLogo from "/logos/supabase.png";
+import ViteLogo from "../../../assets/logos/vite.svg";
+import MUILogo from "../../../assets/logos/mui.svg";
+import TSLogo from "../../../assets/logos/typescript-128.png";
+import NotionLogo from "../../../assets/logos/notion.svg";
+import RubyLogo from "../../../assets/logos/ruby.png";
+import JekyllLogo from "../../../assets/logos/jekyll.png";
+import SupabaseLogo from "../../../assets/logos/supabase.png";
 
-import Portfolio2Photo1 from "/projects/webdev-cs-portfolio_01.png";
-import Portfolio2Photo2 from "/projects/webdev-cs-portfolio_02.png";
-import Portfolio2Photo3 from "/projects/webdev-cs-portfolio_03.png";
+import Portfolio2Photo1 from "../../../assets/projects/webdev-cs-portfolio_01.png";
+import Portfolio2Photo2 from "../../../assets/projects/webdev-cs-portfolio_02.png";
+import Portfolio2Photo3 from "../../../assets/projects/webdev-cs-portfolio_03.png";
 const portfolio2Photos = [
   { src: Portfolio2Photo1, width: 1263, height: 579 },
   { src: Portfolio2Photo2, width: 658, height: 520 },
   { src: Portfolio2Photo3, width: 658, height: 739 },
 ];
 
-import OmniaPhoto1 from "/projects/webdev-omnia_01.png";
-import OmniaPhoto2 from "/projects/webdev-omnia_02.gif";
-import OmniaPhoto3 from "/projects/webdev-omnia_03.gif";
+import OmniaPhoto1 from "../../../assets/projects/webdev-omnia_01.png";
+import OmniaPhoto2 from "../../../assets/projects/webdev-omnia_02.gif";
+import OmniaPhoto3 from "../../../assets/projects/webdev-omnia_03.gif";
 const omniaPhotos = [
   { src: OmniaPhoto1, width: 1267, height: 577 },
   { src: OmniaPhoto2, width: 1266, height: 573 },
   { src: OmniaPhoto3, width: 529, height: 820 },
 ];
 
-import HighGrade1 from "/projects/webdev-highgrade_01.png";
-import HighGrade2 from "/projects/webdev-highgrade_02.png";
-import HighGrade3 from "/projects/webdev-highgrade_03.png";
+import HighGrade1 from "../../../assets/projects/webdev-highgrade_01.png";
+import HighGrade2 from "../../../assets/projects/webdev-highgrade_02.png";
+import HighGrade3 from "../../../assets/projects/webdev-highgrade_03.png";
 const highgradePhotos = [
   { src: HighGrade1, width: 1148, height: 526 },
   { src: HighGrade2, width: 701, height: 702 },
   { src: HighGrade3, width: 1146, height: 527 },
 ];
 
-import portfolio1Photo1 from "/projects/webdev-cs-portfolio-old_01.png";
-import portfolio1Photo2 from "/projects/webdev-cs-portfolio-old_02.gif";
+import portfolio1Photo1 from "../../../assets/projects/webdev-cs-portfolio-old_01.png";
+import portfolio1Photo2 from "../../../assets/projects/webdev-cs-portfolio-old_02.gif";
 const portfolio1Photos = [
   { src: portfolio1Photo1, width: 840, height: 529 },
   { src: portfolio1Photo2, width: 525, height: 799 },

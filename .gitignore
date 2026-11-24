@@ -62,3 +62,4 @@ typings/
 #Custom / may break things
 *.d.ts
 tsconfig.tsbuildinfo
+TODO.md

@@ -12,14 +12,14 @@ import { Suspense, useEffect } from 'react';
 import GalleryLazyLoad from '../../components/molecules/ProjectsLazyLoad';
 import { RowsPhotoAlbum } from 'react-photo-album';
 
-import DatacampLogo from "/logos/datacamp.png";
-import FreeCodeCampLogo from "/logos/freecodecamp.png";
-import HighGradeLogo from "/logos/high-grade.png";
-import CyberPatriotLogo from "/logos/cyber-patriot.png";
+import DatacampLogo from "../../assets/logos/datacamp.png";
+import FreeCodeCampLogo from "../../assets/logos/freecodecamp.png";
+import HighGradeLogo from "../../assets/logos/high-grade.png";
+import CyberPatriotLogo from "../../assets/logos/cyber-patriot.png";
 
-// //const photosPath: string = "/src/assets/extras/";
-import CrossStitch01 from "/extras/cross-stitch_01.jpg";
-import CrossStitch02 from "/extras/cross-stitch_02.jpg";
+// //const photosPath: string = "src/assets/extras/";
+import CrossStitch01 from "../../assets/extras/cross-stitch_01.jpg";
+import CrossStitch02 from "../../assets/extras/cross-stitch_02.jpg";
 const hobbyPhotos = [
   { src: CrossStitch01, width: 424, height: 386 },
   { src: CrossStitch02, width: 462, height: 462 },
