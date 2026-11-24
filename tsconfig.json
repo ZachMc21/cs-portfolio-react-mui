@@ -8,8 +8,7 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["dist/*"],
-      "@/fonts": ["dist/assets/fonts"],
-      "@/assets": ["dist/assets/"],
+      "@/assets/*": ["dist/assets"],
     },
     "types": ["vite/client"],
   }
