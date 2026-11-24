@@ -72,6 +72,7 @@ function ProjectsWebdev() {
                         <Typography>scss/sass</Typography>
                         <Typography>design</Typography>
                         <Typography>animations</Typography>
+                        <Typography>deployment to GitHub Pages</Typography>
                     </Box>
                     <Box className="project-stack-gallery">
                         <Box className="project-stack">
@@ -94,6 +95,10 @@ function ProjectsWebdev() {
                             <Box className="tech-logo-name">
                                 <Box className="tech-logo-container"><img className="tech-logo-vt slide-bck-center anim-delay-9" src="https://animista.net/images/animista-logo-small.svg" height="40" width="auto" /></Box>
                                 <Typography className="subtitle">Animista</Typography>
+                            </Box>
+                            <Box className="tech-logo-name">
+                                <Box className="tech-logo-container"><img className="tech-log-vt slide-bck-center anim-delay-9" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" height="40" width="auto" /></Box>
+                                <Typography className="subtitle">GitHub Pages</Typography>
                             </Box>
                         </Box>
                         <Suspense fallback={<GalleryLazyLoad />}>                        

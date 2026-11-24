@@ -164,6 +164,7 @@ function Skills() {
                                 <Box className="tech-logo-container"><img className="tech-logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Linux_mascot_tux.png" height="40" width="auto" /></Box>
                                 <Box className="tech-logo-container"><img className="tech-logo" src={DockerLogo} height="40" width="auto" /></Box>
                                 <Box className="tech-logo-container"><img className="tech-logo" src={BashLogo} height="40" width="auto" /></Box>
+                                <Box className="tech-logo-container"><img className="tech-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" height="40" width="auto" /></Box>
                             </Box>
                         </Box> {/* end #deployment */}
                         <Box id="ides" className="skill-section-child">
