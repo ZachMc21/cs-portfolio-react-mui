@@ -28,10 +28,11 @@ p.project-item-title {
   font-family: 'eightgon', 'sans-serif';
   font-size: 1.75rem;
   text-align: left;
+  color: #4d1aab; //var(--mui-palette-secondary-main);
 }
 
 .project-item-link svg {
-  color: cs.$primary-text;
+  color: #4d1aab; //var(--mui-palette-secondary-main);
   font-size: 1.75rem;
 }
 
@@ -62,6 +63,15 @@ p.project-desc {
   line-height: 1.15rem;
   text-align: center;
   margin-bottom: 0.75rem;
+}
+a.in-text-link {
+  color: #4d1aab; //var(--mui-palette-secondary-main);;
+  text-decoration: none;
+
+  &:hover {
+    color: #582a84; //var(--mui-palette-secondary-dark);
+    text-decoration: #582a84 underline 0.1rem; //var(--mui-palette-secondary-dark) 
+  }
 }
 .project-skills-gallery-container {
   width: 100%;

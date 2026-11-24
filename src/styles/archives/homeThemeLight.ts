@@ -2,6 +2,7 @@
 import { createTheme } from "@mui/material/styles";
 
 const homeThemeLight = createTheme({
+    cssVariables: true,
     palette: {
         mode: 'light',
         background: {
@@ -12,7 +13,8 @@ const homeThemeLight = createTheme({
             contrastText: "#0e4975",
         },
         secondary: {
-            main: "#E3ACA0",
+            main: "#4d1aab",
+            dark: "#582a84",
             contrastText: "#0B1D23", 
         }
     },

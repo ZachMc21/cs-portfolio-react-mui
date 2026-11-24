@@ -10,32 +10,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  background-image: url("/src/assets/backgrounds/cs-bg.svg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-p.cs-page-title {
-  font-family: 'eightgon', 'sans-serif';
-  font-size: 3rem;
-  align-self: center;
-  margin-bottom: 1rem;
-  padding: 0;
-  color: cs.$primary-text;
-}
-
-a.section-link {
-  text-decoration: none;
-}
-a.section-link p {
-  font-family: 'eightgon', 'sans-serif';
-}
-.section-link:hover {
-  text-decoration: #578a88 underline 0.1rem;
-}
-
 /* Regular */
 @font-face {
   font-family: "aller";

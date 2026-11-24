@@ -43,6 +43,7 @@ const highgradePhotos = [
 
 import portfolio1Photo1 from "../../../assets/projects/webdev-cs-portfolio-old_01.png";
 import portfolio1Photo2 from "../../../assets/projects/webdev-cs-portfolio-old_02.gif";
+import { NavLink } from "react-router-dom";
 const portfolio1Photos = [
   { src: portfolio1Photo1, width: 840, height: 529 },
   { src: portfolio1Photo2, width: 525, height: 799 },
@@ -62,7 +63,7 @@ function ProjectsWebdev() {
                 <Box className="project-desc-container">
                     <Typography className="project-desc">My previous portfolio page was very basic, built quickly for the sake of having something to expand on my resume.</Typography> 
                     <Typography className="project-desc">This new page is a larger project and has a more polished design.</Typography>
-                    <Typography className="project-desc">Its <a href="/">parent project</a> is a collection of sites that I've built for fun as ways to learn new skills and polish existing ones.</Typography>
+                    <Typography className="project-desc">Its <NavLink to="/" className="in-text-link">parent project</NavLink> is a collection of sites that I've built for fun as ways to learn new skills and polish existing ones.</Typography>
                 </Box>
                 <Box className="project-skills-gallery-container">
                     <Box className="project-skills">
