@@ -5,42 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zach Magloughlin's Portfolio</title>
-    <script type="module" crossorigin src="./assets/index-BGSssXaj.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-pD6OlxmF.css">
-    <meta name="vite-app-base" content="./">
-    <meta name="vite-app-asset-marker" content="/assets/">
-    <script data-vite-basepath="">(function () {
-  var marker = "/assets/";
-  var winKey = "__VITE_BASE__";
-  function trail(p) {
-    if (!p) return '/';
-    return p.charAt(p.length - 1) === '/' ? p : p + '/';
-  }
-  function detect() {
-    var nodes = document.querySelectorAll('script[src], link[href]');
-    var origin = window.location.origin;
-    for (var i = 0; i < nodes.length; i++) {
-      var url = nodes[i].src || nodes[i].href || '';
-      var idx = url.indexOf(marker);
-      if (idx !== -1) {
-        return trail(url.substring(0, idx + 1).replace(origin, '') || '/');
-      }
-    }
-    return null;
-  }
-  function apply() {
-    var detected = detect();
-    if (detected) window[winKey] = detected;
-  }
-  apply();
-  if (!window[winKey]) {
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', apply, { once: true });
-    } else {
-      apply();
-    }
-  }
-})();</script>
+    <script type="module" crossorigin src="/cs-portfolio-react-mui/assets/index-BlCVlpoY.js"></script>
+    <link rel="stylesheet" crossorigin href="/cs-portfolio-react-mui/assets/index-pD6OlxmF.css">
   </head>
   <body>
     <div id="root"></div>
