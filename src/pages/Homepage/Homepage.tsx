@@ -5,6 +5,7 @@ import Footer from "../../components/molecules/Footer";
 //import HomepageButton from "../../components/atoms/HomepageButton";
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 import DocumentTitle from "../../utils/DocumentTitle";
+import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
 import "../../styles/homepage/homepage.scss";
 import { useState } from "react";
@@ -116,6 +117,7 @@ function Homepage() {
           {/* light/dark mode toggle */}
           <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", mb: 12 }}>
             <Typography sx={{ fontStyle: "italic", color: alpha("#FFF", 0.8) }}>You will experience this site in {isDarkTheme ? "dark" : "light"} mode.</Typography>
+            <Typography sx={{ fontStyle: "italic", color: alpha("#FFF", 0.8), fontSize: "0.8rem", textTransform: "uppercase" }}><WarningAmberIcon sx={{ fontSize: "0.85rem" }}/> Under Construction</Typography>
                       
             <Button sx={{ display: "flex", flexDirection: "column", mx: "auto", border: 2, borderColor: alpha("#FFF", 0.8), my: 1 }}
               onClick={changeTheme}>

@@ -60,6 +60,4 @@ typings/
 .env.production.local
 
 #Custom / may break things
-*.d.ts
-tsconfig.tsbuildinfo
 TODO.md
