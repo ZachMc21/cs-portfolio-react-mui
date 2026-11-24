@@ -49,10 +49,7 @@ div.extras-content {
   row-gap: 1.5rem;
   padding: 2rem;
 
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url("/src/assets/backgrounds/cs-extras-bg.svg");
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background-color: cs.$secondary-light;
 
   p.h2 {
     font-size: 1.25rem;
@@ -62,13 +59,12 @@ div.extras-content {
   }
 
   a {
-    color: black;
+    color: cs.$secondary-text;
     text-decoration: none;
-    font-style: italic;
-    
-    a:hover {
-      transform: "scale3d(1.06, 1.06, 1)",
-    }
+  }
+  
+  a:hover {
+    transform: "scale3d(1.06, 1.06, 1)",
   }
 }
 
@@ -84,6 +80,7 @@ div.extras-text {
 
   div.subtitle-hz {
     display: flex;
+    margin-top: 0;
     gap: 0.85rem;
   }
 }

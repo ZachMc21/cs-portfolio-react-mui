@@ -10,6 +10,12 @@
   box-sizing: border-box;
 }
 
+p.cs-page-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #4d1aab; //var(--mui-palette-secondary-main);
+}
+
 /* Regular */
 @font-face {
   font-family: "aller";

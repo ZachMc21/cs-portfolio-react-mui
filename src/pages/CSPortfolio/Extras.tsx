@@ -20,6 +20,7 @@ import CyberPatriotLogo from "../../assets/logos/cyber-patriot.png";
 // //const photosPath: string = "src/assets/extras/";
 import CrossStitch01 from "../../assets/extras/cross-stitch_01.jpg";
 import CrossStitch02 from "../../assets/extras/cross-stitch_02.jpg";
+import { NavLink } from 'react-router-dom';
 const hobbyPhotos = [
   { src: CrossStitch01, width: 424, height: 386 },
   { src: CrossStitch02, width: 462, height: 462 },
@@ -126,7 +127,7 @@ function Extras() {
 					<Box className="extras-content">
 						<Typography className="h2">Cross stitch</Typography>
 						<Typography className="h2">Crochet</Typography>
-						<Link href="/photography-portfolio"> <Typography className="h2">Photography</Typography> </Link>
+						<NavLink to="/photography-portfolio"> <Typography className="h2">Photography</Typography> </NavLink>
 						<Typography className="h2">Digital painting</Typography>
 						<Typography className="h2">Fiction writing</Typography>
 						<Box className="extras-text">

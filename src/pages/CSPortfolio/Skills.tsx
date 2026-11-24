@@ -43,7 +43,7 @@ function Skills() {
                 <Typography className="cs-page-title">
                     Skills
                 </Typography>
-                <Box id="front-end-container">
+                <Box id="front-end-container" className="skill-section-container">
                     <Typography className="h1 rotated" sx={{ color: csLight.palette.secondary.contrastText }}>
                         Front-end
                     </Typography>
@@ -97,7 +97,7 @@ function Skills() {
                     </Box>
                 </Box> {/* end #front-end */}
 
-                <Box id="back-end-container">
+                <Box id="back-end-container" className="skill-section-container">
                     <Typography className="h1 rotated" sx={{ color: csLight.palette.secondary.contrastText }}>
                         Back-end
                     </Typography>
@@ -131,7 +131,7 @@ function Skills() {
                         </Box> {/* end #back-end-databses */}
                     </Box>
                 </Box> {/* end #back-end */}
-                <Box id="other-tech-container">
+                <Box id="other-tech-container" className="skill-section-container">
                     <Typography className="h1 rotated" sx={{ color: csLight.palette.secondary.contrastText }}>
                         Other Technologies
                     </Typography>
@@ -198,7 +198,7 @@ function Skills() {
                         </Box> {/* end #design */}
                     </Box>
                 </Box> {/* end other technologies */}
-                <Box id="other-skills-container">
+                <Box id="other-skills-container" className="skill-section-container">
                     <Typography className="h1 rotated" sx={{ color: csLight.palette.secondary.contrastText }}>
                         Other Skills
                     </Typography>
