@@ -1,5 +1,5 @@
 
-import { Box, Link, ThemeProvider, Typography } from '@mui/material';
+import { Box, ThemeProvider, Typography } from '@mui/material';
 
 import Footer from '../../components/molecules/Footer';
 
