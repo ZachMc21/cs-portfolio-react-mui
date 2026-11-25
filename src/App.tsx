@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider, useColorScheme } from '@mui/material/styles';
 
 import './App.css'
 import homeLight from "./styles/homepage/homeLight";
@@ -17,6 +17,8 @@ import NotFound from './pages/NotFound/NotFound';
 
 function App() {
 
+  var colorScheme : String = "dark";
+  
   return (
     <ThemeProvider theme={homeLight}>
       <Box className="App">

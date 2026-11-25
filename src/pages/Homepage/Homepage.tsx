@@ -1,4 +1,4 @@
-import { CssBaseline, Box, Typography, ThemeProvider, Button, alpha, createTheme, useTheme } from "@mui/material";
+import { CssBaseline, Box, Typography, ThemeProvider, Button, alpha, createTheme, useTheme, useColorScheme, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio } from "@mui/material";
 import Footer from "../../components/molecules/Footer";
 //import homeThemeLight from "../../styles/homepage/homeLight";
 //import homeThemeDark from "../../styles/homepage/homeDark";
@@ -13,14 +13,7 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
     
-    DocumentTitle("Home");
-
-	// Define theme settings
-	// const light = {
-	// 	palette: {
-	// 		mode: "light",
-	// 	},
-	// };
+  DocumentTitle("Home");
 
 	const theme = createTheme({
 		colorSchemes: {
@@ -57,13 +50,10 @@ function Homepage() {
 		}
 	});
 
-	//Default to light theme
-	const [ isDarkTheme, setIsDarkTheme ] = useState(false);
-
-	// //Change the theme when the button is pressed
-	const changeTheme = () => {
-		setIsDarkTheme(!isDarkTheme);
-	};
+  const { mode, setMode } = useColorScheme();
+  if (!mode) {
+    return null;
+  }
 
 	return (
 		<ThemeProvider theme={theme}>
@@ -71,7 +61,7 @@ function Homepage() {
             sx={{ display: "flex", flexDirection: "column", justifyContent: "center",
                 maxWidth: "100vw", p: 0, m: 0
                 }}>
-      <CssBaseline />
+      {/* <CssBaseline /> */}
 
 				<Box id="homepage-content"
 					sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignContent: "center" }}>
@@ -115,7 +105,24 @@ function Homepage() {
 					</Box> {/* end homepage buttons */}
 
           {/* light/dark mode toggle */}
-          <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", mb: 12 }}>
+          <Box>
+            <FormControl>
+              <FormLabel id="theme-toggle">Theme</FormLabel>
+              <RadioGroup
+                aria-labelledby="theme-toggle"
+                name="theme-toggle"
+                row
+                value={mode}
+                onChange={(event) => setMode(event.target.value as 'system' | 'light' | 'dark')}
+              >
+                <FormControlLabel value="system" control={<Radio />} label="System" />
+                <FormControlLabel value="light" control={<Radio />} label="Light" />
+                <FormControlLabel value="dark" control={<Radio />} label="Dark" />
+              </RadioGroup>
+            </FormControl>
+          </Box>
+
+          {/* <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center", mb: 12 }}>
             <Typography sx={{ fontStyle: "italic", color: alpha("#FFF", 0.8) }}>You will experience this site in {isDarkTheme ? "dark" : "light"} mode.</Typography>
             <Typography sx={{ fontStyle: "italic", color: alpha("#FFF", 0.8), fontSize: "0.8rem", textTransform: "uppercase" }}><WarningAmberIcon sx={{ fontSize: "0.85rem" }}/> Under Construction</Typography>
                       
@@ -124,7 +131,7 @@ function Homepage() {
                             <Typography sx={{ textTransform: "uppercase", fontSize: "0.8rem", color: alpha("#FFF", 0.8)}}>
                 Switch to {isDarkTheme ? 'light' : 'dark'} mode
                             </Typography>
-            </Button>
+            </Button> */}
 
             {/* <Button sx={{ display: "flex", flexDirection: "column", mx: "auto", border: 2, borderColor: alpha("#FFF", 0.8), my: 1 }}
             onClick={changeTheme}>
@@ -145,7 +152,6 @@ function Homepage() {
                           </Typography>
                       </Button>
                       </ThemeProvider> */}
-          </Box>
         </Box> {/* end #homepage-content */}
 
       <Footer bgColor="" textColor={useTheme().palette.primary.main}/>
