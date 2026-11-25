@@ -2,40 +2,44 @@
 import { createTheme } from "@mui/material/styles";
 
 const musicDbTheme = createTheme({
+    cssVariables: true,
     colorSchemes: {
         light: {
             palette: {
                 background: {
-                    default: '#a7c4c2',
+                    default: '#E5E5E5',
                 },
                 primary: {
-                    main: '#104547',
+                    main: '#FFFFFF',
+                    contrastText: '#14213D',
                 },
                 secondary: {
-                    main: '#464671ff',
+                    main: '#FCA311',
+                    contrastText: '#000000',
                 },
             }
         },
         dark: {
             palette: {
                 background: {
-                    default: '#104547',
+                    default: '#14213D',
                 },
                 primary: {
-                    main: '#a7c4c2',
+                    main: '#000000',
+                    contrastText: '#E5E5E5',
                 },
                 secondary: {
-                    main: '#2c1116',
-                    contrastText: '#af7595', 
+                    main: '#FCA311',
+                    contrastText: '#000000', 
                 }
             }
         }
     },
     /* TODO move this into its own file? */
     typography: {
-        fontFamily: ['maskingrenata', 'serif'].join(','),
+        fontFamily: ['creteround', 'serif'].join(','),
         allVariants: {
-            fontWeight: "regular",
+            fontWeight: "bold",
         },
     },
     spacing: 8,
